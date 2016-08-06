@@ -1,0 +1,8 @@
+一、C语言关键字 static 和 C++关键字 static 的区别：
+在C语言中，static关键字可以修饰局部静态变量，可以修饰全局静态变量和函数。而在C++中，除了以上的功能，它还
+可以修饰类的成员变量和成员函数。C++的静态成员可以在多个对象实例间进行通信、传递信息。
+二、什么是虚函数， 什么是纯虚函数
+虚函数声明 virtual ReturnType FunctionName (parameter)
+引入虚函数是为了动态绑定
+纯虚函数 声明 virtual ReturnType FunctionName() = 0
+引入纯虚函数是为了派生接口
