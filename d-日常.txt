@@ -52,3 +52,6 @@ rar请到：http://www.rarsoft.com/download.htm 下载！ 解压后请将rar_sta
 四、重定义linux 命令
 修改 ~/.bashrc 或者 /etc/bashrc 
 alias a='ls'
+
+五、go time parse
+time.Parse("2006-01-02 15:04:05",timeStr) 这个layout必须是这个时间点，可以改成其他格式 如 加PM  01/02/2006之类。但是必须这个时间点
